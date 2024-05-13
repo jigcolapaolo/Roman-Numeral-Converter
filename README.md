@@ -44,3 +44,5 @@
   Solo utiliza HTML, CSS y JavaScript.
 </p>
 
+![image](https://github.com/jigcolapaolo/Roman-Numeral-Converter/assets/145474462/571784f0-dc01-4f1b-9473-1b7e918e3cb3)
+
