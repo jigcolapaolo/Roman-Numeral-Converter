@@ -6,18 +6,9 @@
 
 <h3>[English]</h3>
 <p>
-  What I did was to create an array with this data to be used in the function convertToRoman().<br>
-  First, the input is validated to ensure that numbers are entered.<br>
-  Then, in the function, I convert the entered numbers into an array, dividing them by digits<br>
-  and reversing them.<br>
-  I determine how many digits the entered number has and filter the data from the romanArabic array.<br>
-  Once done, I iterate through the data to be used with each digit; if the exact number matches,<br>
-  the Roman numeral is added to 'result' as a string.<br>
-  If the exact number is not found, the data is filtered again to make the search simpler.<br>
-  There should be only 2 data left, depending on whether it's a unit, ten, hundred, or thousand.<br>
-  Once there, the difference is calculated between the smaller number without considering zeros, and the lowest Roman numeral<br>
-  according to the unit is added, and it is repeated according to the difference result.<br>
-  This process continues until the complete string of Roman numerals is formed.
+What I did was create an array with this data to be used in the convertToRoman() function.
+First, the input is validated to ensure that numbers are entered.
+Then, in the function, I create an empty string where the Roman numerals will be added and start iterating through the array with the data. Since the array is ordered from largest to smallest, as long as the entered number is greater than or equal to the Arabic number, the Roman numeral representing that number will be added to the empty string, and the entered number will be subtracted by that number. This continues until the entire array is traversed and the string with the Roman numerals is displayed.
 </p>
 <p>
   Only HTML, CSS, and JavaScript are used.
@@ -27,18 +18,11 @@
 
 <h3>[Spanish]</h3>
 <p>
-  Lo que hice fue crear un array con estos datos para que sean utilizados en la función convertToRoman().<br>
-  Primero, se valida el input para asegurarse de que se ingresen números.<br>
-  Luego, en la función, convierto los números ingresados en un array, dividiéndolos por cifras<br>
-  e invirtiéndolos.<br>
-  Se determina cuántos dígitos tiene el número ingresado y se filtran los datos del array romanArabic.<br>
-  Una vez hecho esto, se recorren los datos a utilizar con cada dígito; si coincide el número exacto,<br>
-  se agrega el número romano a 'result' como string.<br>
-  En caso de no encontrar el número exacto, se vuelve a filtrar los datos para hacer la búsqueda más sencilla.<br>
-  Deberían quedar solo 2 datos, según si es unidad, decena, centena o mil.<br>
-  Una vez ahí, se hace la diferencia entre el número menor sin tener en cuenta los ceros, y se va agregando<br>
-  el número romano más bajo según la unidad que sea, y se repite según el resultado de la diferencia.<br>
-  Así se continúa hasta formar el string completo de números romanos.
+Lo que hice fue crear un array con estos datos para que sean utilizados en la función convertToRoman().
+Primero, se valida el input para asegurarse de que se ingresen números.
+Luego, en la función, creo un string vacío en donde se irán agregando los números romanos y empiezo a recorrer el array con los datos.
+  Como el array está ordenado de mayor a menor, mientras el número ingresado sea mayor o igual al número arábigo,
+  se agregará al string vacío el número romano que represente a ese número, y al número ingresado se le resta ese número. Así se continúa hasta recorrer todo el array y se muestra el string con los números romanos.
 </p>
 <p>
   Solo utiliza HTML, CSS y JavaScript.
